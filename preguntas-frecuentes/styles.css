@@ -1,0 +1,18 @@
+
+.card-header .btn{
+	border: 2px solid #a23e48;
+	border-color: #a23e48;
+}
+
+.card-header p{
+	color:  #a23e48;
+}
+
+.card-header:hover{
+	
+	background: #a23e48;
+}
+
+.card-header:hover p{
+	color: #fff !important;
+}

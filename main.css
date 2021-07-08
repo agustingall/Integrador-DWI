@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 768px) {
+	.icono img{
+		width: fit-content
+	}
+}
+
+body{
+	color: 		 #0b3954;
+	background: #fff
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+p.h5{
+	color: #787F87;
+}
+
+a{
+	color: #204051;
+}
+
+a:hover{
+
+	text-decoration: none;
+}
+
+
+
+
+i{
+	color:#fff;
+	font-size: 2em;
+}
+
+.card img{
+	height: 200px;
+}
+
+.col, .row{
+	padding-right: 0 !important;
+	padding-left :  0 !important;
+	margin-right: 0 !important;
+	margin-left :  0 !important;
+}
+
+.bg-pred{
+	background: #2C3D55;
+}
+
+.card-body a{
+	background:  #0b3954;
+}
+
+.container{
+	width: 70%;
+}
+
+img{
+	width: 25%;
+	height: 100%;
+}
+
+.icono{
+	width: 3rem;
+	height: 3rem;
+}
+
+#navbarSupportedContent{
+	width: 70%;
+}
+
+p.h4.titulo{
+	font-family: 'Quicksand', sans-serif !important;
+	
+}
+
+
+
+.carousel-item img{
+	height: -webkit-fill-available;
+}
+
+.carousel-inner{
+	height: 43vh;
+
+}
+
+.carousel-item{
+	height: 43vh;
+}
+
+.logo{
+	color: #0b7189;
+}
+
+
+
+nav.navbar{
+	padding-left: 15% !important;
+	padding-right: 15% !important;
+}
+
+.active a{
+	color: #20a4f3 !important;
+}
+
+footer{
+	padding: 1rem 15% 1.5rem 15% !important;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	}
+
+table tr:first-child td{
+	color: #D1E3EF;
+}
+
+footer table{
+	width: 33%;
+	line-height: 1.8rem;
+}

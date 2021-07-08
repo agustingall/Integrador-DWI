@@ -1,0 +1,62 @@
+
+.subtitulo{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.info{
+	font-family: 'Lato', sans-serif;
+}
+
+iframe{
+	height: inherit;
+	width: inherit;
+}
+
+
+
+
+
+
+
+
+.subtitulo{
+	font-family: 'Playfair Display', serif;
+	display: none;
+}
+
+
+
+
+
+.card{
+	width: 18rem;
+}
+
+.info i{
+	color: #ff0000;
+}
+
+.text{
+	margin:  0;
+}
+
+@media all and (max-width: 768px) {
+	.card{
+		width: 100% !important;
+		margin-top: 1rem;
+	}
+}
+
+
+.item{
+	border:  1px solid;
+	height: fit-content;
+}
+
+.item i, .item div{
+	height: fit-content;
+}
+
+.item{
+	height: 7em;
+}
