@@ -6,33 +6,71 @@
 }
 
 body{
-	color: 		 #0b3954;
-	background: #fff
+	color: 		 #CF0A0A;
+}
+
+body, main{
+	background-color: #FCFFE7;
+}
+
+.input-group, .input-group i{
+	color: #fff;
+}
+
+.navbar-nav i{
+	font-size: 1em;
+	color: #fff;
+}
+
+.section-header{
+	background-color: #EB6440;
+	color: #fff;
 }
 
 p{
 	font-family: 'Roboto', sans-serif;
 }
 
-p.h5{
-	color: #787F87;
+.titulo img{
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.section-mediosPagos{ 
+	background-color: #fff;
+}
+
+
+
+.mediosPago-img img{
+	height: auto;
+	width: auto;
 }
 
 a{
-	color: #204051;
+	color: #fff;
 }
 
-a:hover{
-
+a:hover, .info a:hover{
+	color: #fff;
 	text-decoration: none;
+}
+
+.info{
+	background-color: #fff;
+	color: #678983;
 }
 
 
 
 
 i{
-	color:#fff;
+	color:#678983;
 	font-size: 2em;
+}
+
+.card{
+	color:#004A82;
 }
 
 .card img{
@@ -46,9 +84,7 @@ i{
 	margin-left :  0 !important;
 }
 
-.bg-pred{
-	background: #2C3D55;
-}
+
 
 .card-body a{
 	background:  #0b3954;
@@ -58,10 +94,7 @@ i{
 	width: 70%;
 }
 
-img{
-	width: 25%;
-	height: 100%;
-}
+
 
 .icono{
 	width: 3rem;
@@ -72,9 +105,8 @@ img{
 	width: 70%;
 }
 
-p.h4.titulo{
+.titulo{
 	font-family: 'Quicksand', sans-serif !important;
-	
 }
 
 
@@ -83,28 +115,45 @@ p.h4.titulo{
 	height: -webkit-fill-available;
 }
 
-.carousel-inner{
-	height: 43vh;
 
-}
 
 .carousel-item{
-	height: 43vh;
+	height: 25em;
 }
 
 .logo{
-	color: #0b7189;
+	color: #E8F3D6;
+}
+
+nav a{
+	color:#fff !important;
+}
+
+nav, footer{
+	background-color:#181D31;
 }
 
 
+p.card-text{
+	min-height: 4em;
+}
 
 nav.navbar{
 	padding-left: 15% !important;
 	padding-right: 15% !important;
 }
 
+
+a{
+	color: #E8F3D6;
+}
+
 .active a{
-	color: #20a4f3 !important;
+	color: #FCF9BE !important;
+}
+
+.info a{
+	color: #26A1FF;
 }
 
 footer{

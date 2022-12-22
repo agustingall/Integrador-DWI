@@ -6,70 +6,89 @@
 	
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-
 	
-
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:ital,wght@1,600&family=Roboto:ital@1&display=swap&family=Benne&family=Playfair+Display:ital@1&family=Viaoda+Libre&display=swap&family=Quicksand&display=swap&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+	
+	<!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+	<script src="https://kit.fontawesome.com/321b3d3341.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:ital,wght@1,600&family=Roboto:ital@1&display=swap&family=Benne&family=Playfair+Display:ital@1&Martian+Mono:wght@300&family=Viaoda+Libre&display=swap&family=Quicksand&display=swap&family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
 
 
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="styles.css">
 	<title>MAYORISTA El Centro</title>
-	<link rel="shortcut icon" type="image/svg" href="img/tienda.svg"/>
+	<link rel="shortcut icon" type="image/svg" href="img/Logo.png"/>
 
 
 </head>
 <body>
-		<nav class="justify-content-between row navbar navbar-expand-lg pt-3 pb-3 w-100">
+	
+	 <nav class="justify-content-between row navbar navbar-expand-lg py-3 w-100">
 		  
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		  </button>
 
-		  <div class="p-0 d-flex justify-content-between col-lg-4 col-md-12 border" id="navbarSupportedContent ">
-		    <ul class="navbar-nav pl-3 pl-lg-0">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+		  
+
+	  		<div class="logo mt-1  d-flex flex-wrap flex-column align-items-start col-lg-5 col-md-12 pl-0" >
+				
+			<div class="pr-0 w-100">
+				<p class="h4 titulo">
+					MAYORISTA  EL CENTRO
+					<img src="./img/Logo.png" class="ml-2" alt="">
+				</p>
+			</div>
+
+
+		</div>
+
+		<div class="p-0 d-flex justify-content-end col-lg-4 col-md-12 " id="navbarSupportedContent ">
+		    <ul class="navbar-nav w-100">
+		      <li class="nav-item active d-flex align-items-center col">
+				<a class="nav-link" href="#">Inicio</a>
+					<div class="d-flex d-flex justify-content-center align-items-center">
+				<i class="fa-solid fa-house-user"></i>
+					</div>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="contacto/contacto.html">Venta</a>
+		      <li class="nav-item d-flex align-items-center col">
+		        <a class="nav-link" href="contacto/contacto.html">Contacto</a>
+				<div class="d-flex d-flex justify-content-center align-items-center">
+					<i class="fa-regular fa-address-book"></i>
+						</div>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="preguntas-frecuentes/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+		      <li class="nav-item d-flex align-items-center col">
+		        <a class="nav-link" href="preguntas-frecuentes/preguntas-frecuentes.html">FAQ</a>
+				<div class="d-flex d-flex justify-content-center align-items-center">
+					<i class="fa-regular fa-circle-question"></i>
+						</div>
 		      </li>
 		    </ul>
+			
 	  		</div>
-
-	  		<div class="logo mt-3  d-flex flex-wrap flex-row col-lg-5 col-md-12 " >
-			<div class="pr-0 w-100">
-
-			<p class="h4 titulo text-center  w-100">
-				<img src="img/tienda.svg" class="img" alt="Responsive image">
-				MAYORISTA  EL CENTRO
-			</p>
-
-
-			</div>
+			  <div class="input-group align-items-baseline">
+				<div class="form-outline">
+				  <input type="search" id="form1" class="form-control" placeholder="Ofertas Navideñas..." />
+				  <label class="form-label" for="form1">Buscador</label>
+				</div>
+				<button type="button" class="btn">
+				  <i class="fas fa-search"></i>
+				</button>
+			  </div>
+		</nav> 
+		<div class="section-header py-3">
+			<p class="h5 text-center m-0">Los mejores productos al mejor precio 🎄</p>
 		</div>
 
-		</nav>
-
 		
-	<main class="container p-0 .flex-wrap">
+	<main  >
 		
-		<div class="lead">
-			Los mejores productos al mejor precio
-		</div>
 		
-		<section class="row  mt-1 justify-content-center">
+		<section class="row  justify-content-center">
 	
-				
-
-			<div class="row col-12  mt-3 pr-0  ">
+			<div class="row col-12   pr-0  ">
 				<div id="carouselExampleControls" class="carousel slide col-12 p-0" data-ride="carousel">
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
@@ -92,32 +111,41 @@
 				  </a>
 				</div>
 			</div>
+		</section>
 
-			<div class="row info zero">
+		<section class="catalogo-section py-4">
+			<p class="text-center h3">¿Querés hacer la compra online? </p>
+			<p class="text-center h5">Ingresa al catalogo y arma tu carrito 🛒</p>
+			<div class="button-catalogo mt-3 d-flex flex-column align-items-center">
+				<a href="./Catalogo/index.html" class="btn p-2">Ir al catalogo</a>
+			</div>
+		</section>
 
-			<div class=" col-md-12 col-lg-3 pl-4 pr-0 pl-md-4 pr-md-0 mt-5 pl-lg-0 pr-lg-0 ">
-			<div class="item d-flex p-2 pt-3 pb-1 d-flex justify-content-center align-items-center">
+			<div class="row info zero py-2">
+
+			<div class=" col-md-12 col-lg-3 pr-0 ">
+			<div class="item d-flex p-2 py-3 d-flex justify-content-center align-items-center">
 				<i class="fas fa-shipping-fast px-3 py-1"></i>
 				<div>
 				<p class="text ">ENVIOS A TODO EL PAIS</p>
-				<a href="#" class="pt-3" > Ver más</a>
+				<a href="#envios" class="pt-3" > Ver más</a>
 				</div>
 			</div>
 
 			</div>
 
-			<div class=" col-md-12 col-lg-3 mt-5 pl-4 pr-0">
-			<div class="item d-flex p-2 pt-3 pb-1 d-flex justify-content-center align-items-center">
+			<div class=" col-md-12 col-lg-3 pr-0">
+			<div class="item d-flex p-2 py-3 d-flex justify-content-center align-items-center">
 				<i class="far fa-credit-card px-3 py-1"></i>
 				<div>
 				<p class="text ">MEDIOS DE PAGO</p>
-				<a href="#" class="pt-3" > Ver más</a>
+				<a href="#mediosDePago" class="pt-3" > Ver más</a>
 				</div>
 			</div>
 			</div>			
 
-			<div class=" col-md-12 col-lg-3 mt-5 pl-4 pr-0">
-			<div class="item p-2 pt-3 pb-1 d-flex justify-content-center align-items-center">
+			<div class=" col-md-12 col-lg-3 pr-0">
+			<div class="item p-2 py-3 d-flex justify-content-center align-items-center">
 				<i class="fas fa-tags fast px-3 py-1"></i>
 				<div>
 				<p class="text ">OFERTAS Y DESCUENTOS</p>
@@ -125,8 +153,8 @@
 				</div>
 			</div>
 			</div>
-			<div class=" col-md-12 col-lg-3 mt-5 pl-4 pr-0">
-			<div class="item  d-flex p-2 pt-3 pb-1 d-flex justify-content-center align-items-center">
+			<div class=" col-md-12 col-lg-3 pr-0">
+			<div class="item  d-flex p-2 py-3 d-flex justify-content-center align-items-center">
 				<i class="fas fa-user-friends px-3 py-1"></i>
 				<div>
 				<p class="text ">CENTRO DE AYUDA</p>
@@ -134,40 +162,111 @@
 				</div>
 			</div>
 			</div>
+			
 			</div>
 
 
-			<section class="section mt-5 pt-4 d-flex justify-content-between w-100 flex-wrap zero">
-				<div class="card ">
-				  <img src="img/1.svg" class="card-img-top img-thumbnail" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Productos</h5>
-				    <p class="card-text">Todos los productos que ofrecemos ordenados por categoria y Precio.</p>
-				    <a href="#" class="btn btn-primary">Ver productos</a>
-				  </div>
-				</div>
+			
+		
 
-					<div class="card ">
-				  <img src="img/2.svg" class="card-img-top img-thumbnail" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Promociones</h5>
-				    <p class="card-text">Todas las promociones del Mes</p>
-				    <a href="#" class="btn btn-primary">Ver promociones</a>
-				  </div>
-				</div>
-				<div class="card ">
-				  <img src="img/3.svg" class="card-img-top img-thumbnail" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Minoristas</h5>
-				    <p class="card-text">Minoristas con quienes trabajamos</p>
-				    <a href="#" class="btn btn-primary">ver Minoristas</a>
-				  </div>
-				</div>
-			</section>
+
+		<section class="section-envios row align-items-center flex-column text-center mt-3 py-3">
+
+			<div class="icon-envios mb-4">
+				<i class="fa-solid fa-truck"></i>
+			</div>
+
+			<p class="h4 text-center subtitulo-envios">RECIBÍ TU COMPRA CUANTO ANTES</p>
+			
+			<p class="h5 mt-4 mb-3 " id="envios">En tu proceso de compra online vas a encontrar diferentes opciones de envío, elegí el método a Gusto.</p>
+
+			
+			<p class="titulo-envio h6 mt-5 mb-3 " >
+				ENVÍO A DOMICILIO STANDARD
+				<i class=" ml-2 fa-solid fa-truck-ramp-box"></i>
+			</p>
+
+			<p class="w-25"  >
+				AMBA $349 hasta 72 horas -
+				Lunes a viernes de 9 a 20 hs
+				GRATIS A PARTIR DE $6.000,00 -
+				Operador Chazki
+			</p>
+
+			<p class="w-25">
+				INTERIOR DEL PAÍS $539 hasta 5
+				días hábiles -
+				Lunes a viernes 9 a 18 hs
+				GRATIS A PARTIR DE 10.000,00 -
+				Operador Andreani
+			</p>
+
+			<p class="titulo-envio h6 mt-5 mb-3 " >
+				ENVÍO A DOMICILIO EXPRESS - SAME DAY!
+				<i class=" ml-2 fa-solid fa-truck-fast"></i>
+			</p>
+
+			<p class="w-25">
+				Lunes a viernes de 9 a 20 hs
+				Compras hechas antes de las 12
+				del mediodía
+			</p>
+
+		    <p class="w-25">
+				EXCLUSIVAMENTE CABA $419
+			</p>
+
+			<p class="titulo-envio h6 mt-5 mb-3 ">
+				PICK UP POINT
+				<i class=" ml-2 fa-solid fa-boxes-packing"></i>
+			</p>
+				
+			<p class="w-25">
+				AMBA $289 - hasta 48 horas hábiles
+				INTERIOR DEL PAÍS $459 - hasta 4 días hábiles
+			</p>
+
 		</section>
 
+		<section class="section-mediosPagos py-4 row align-items-center flex-column" id="mediosDePago">
+			<p class="h3 text-center">Medios de Pago</p>
+			<div class="mediosPago-img">
+				<img src="./img/MEDIOS DE PAGO.webp" alt="">
+			</div>
+		</section>
+
+		<section class="section-cards py-5 d-flex justify-content-around w-100 flex-wrap zero">
+			<div class="card shadow">
+			  <img src="img/1.svg" class="card-img-top img-thumbnail" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Productos</h5>
+				<p class="card-text">Todos los productos que ofrecemos ordenados por categorísa y precio.</p>
+				<a href="#" class="btn btn-primary">Acceder al Catalogo</a>
+			  </div>
+			</div>
+
+				<div class="card shadow">
+			  <img src="img/2.svg" class="card-img-top img-thumbnail" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Promociones</h5>
+				<p class="card-text">Todas las promociones del Mes</p>
+				<a href="#" class="btn btn-primary">Ver promociones</a>
+			  </div>
+			</div>
+			<div class="card shadow">
+			  <img src="img/3.svg" class="card-img-top img-thumbnail" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Minoristas</h5>
+				<p class="card-text">Minoristas con quienes trabajamos</p>
+				<a href="#" class="btn btn-primary">ver Minoristas</a>
+			  </div>
+			</div>
+		</section>
+	
+
 	</main>
-	<footer class="bg-pred  d-flex justify-content-between align-items-center mt-5 flex-wrap pb-5 text-lg-left text-center">
+
+	<footer class="bg-pred  d-flex justify-content-between align-items-center flex-wrap pb-5 text-lg-left text-center">
 			<div class="row d-flex flex-wrap">
 			<table class="col-sm-12 col-md-6 col-lg-4 mt-2 mt-5">
 				<tbody>
@@ -182,7 +281,7 @@
 
 				</tr>
 				<tr>
-					<td>Terminos y condiciones</td>
+					<td>Términos y condiciones</td>
 				</tr>
 				<tr>
 					<td>Politicas de Privacidad</td>
@@ -250,7 +349,7 @@
 			</div>
 	</footer>
 
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

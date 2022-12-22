@@ -1,16 +1,16 @@
 
 .card-header .btn{
-	border: 2px solid #a23e48;
-	border-color: #a23e48;
+	border: 2px solid #e76f51;
+	border-color: #e76f51;
 }
 
 .card-header p{
-	color:  #a23e48;
+	color:  #e76f51;
 }
 
 .card-header:hover{
 	
-	background: #a23e48;
+	background: #e76f51;
 }
 
 .card-header:hover p{

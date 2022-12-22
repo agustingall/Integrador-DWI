@@ -1,0 +1,25 @@
+.categoria-article{
+	height: fit-content;
+	
+}
+
+.categoria-article p{
+	font-family: 'Martian Mono', monospace;
+	font-size: 1.2em;
+}
+
+.categoria-article img{
+	height: 11em;
+	width: 11em;
+	
+}
+
+.categoria-article:hover{
+	cursor: pointer;
+}
+
+main i{
+	font-size: 1em;
+	color: #CF0A0A;
+}
+
